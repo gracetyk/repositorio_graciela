@@ -3,42 +3,106 @@
     <head>
         <meta charset="es">
         <meta >
+        <style>
+            .separador {
+           color:gray;
+           }
+
+          #lista li {
+          display:inline;
+          padding-left:50px;
+          padding-right:50px;
+   
+        }
+
+        </style>
     </head>
     <body>
-       <header>
-            <div>
-            <h1>Mi empresa  ®</h1>
-            </div>
-            <div>
-                <h1>La fuerza de expansión para restaurantes</h1>
-            </div>
-       </header>
-       <nav>
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Información</a></li>
-        <li><a href="">Contacto</a></li>
-        <li><a href="">Portafolio</a></li>
-        </nav>
+       <header  style="background-color: rgb(240, 73, 156);height: 100px">
+                <div id="div1" style="margin-top: 30px; width: 760px;margin: 0 auto;background-color: red;border-radius: 15px;line-height: 40px;">
+                <h1 style="text-align: center">Mi empresa </h1>
+                </div>
 
+                <div style="margin-top: 20px; width: 600px;margin: 0 auto;background-color: red;border-radius: 15px;">
+                    <h3 style="text-align: center">Esto es subtitulo </h3>
+                </div>
+           
+       </header>
+       
+       <nav style="margin: 0 auto;background-color: rgb(250, 213, 181 );">
+        
+        <ul id="lista" style="font-size: 20px" >
+            <li>
+                <a href="">Inicio</a>
+            </li>
+            <li>
+                <span class="separador">| </span><a href="http://www.google.es/">Ir a Google</a>
+            </li>
+            <li>
+                <span class="separador">| </span><a href="http://www.yahoo.es/">Ir a Yahoo</a>
+            </li>
+            <li>
+                <span class="separador">| </span><a href="http://www.bing.es/">Ir a Bing</a>
+            </li>
+        </ul>
+        </nav>
+       
        <main>
-           <h2>This is my paragraph header</h2>
-           <article>
-               <h3>This is where i am going to put useful and informative text about my website</h3>
-              
-           </article>
+        <article style="background-color: pink; height: 500px;width: 800px;">
+          <head>
+              <h1>
+                  Este es un articulo
+              </h1>
+          </head>
+           <section id="sec1" >
+               
+                <div id="div1" style="background-color: rgb(149, 149, 250);width: 760px;height: 230px">
+                    
+                    <img src="./imagenes/un-saludito.jpg" alt="Un saludito" style="margin-left: 20px; margin-top: 20px;">
+                    <div id="div3" style="width: 300px;margin-left: 300px;background-color: rgb(149, 149, 250);margin-top: -207px;height: 188px;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, persidem 
+                    </p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="sec2">
+                
+                <div id="div4" style="background-color: rgb(149, 149, 250);height: 188px; width: 760px">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quisquam harum, 
+                </p>
+                </div>
+            </section>
+        </article> 
+           
 
        </main>
-       <aside>
+       <aside style="float: right;width: 40%;margin-top: -500px;background-color: rgb(116, 172, 116);height: 500px;">
            <section>
-               <h3> This is where i am can place even more information about my website
-                  
-                </h3>
-           </section>
+                <h1 style="text-align: center;"> 
+                  Aqui va título del sidebar
+                </h1>
+               
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iure, reprehenderit dolore unde sequi provident fugit iste, quos vero pariatur ducimus ex asperiores, minus dolores sunt voluptates quas vel quibusdam.
 
+                </p>
+           </section>
+           <section>
+               <h1 style="text-align: center;">
+                Aqui va segundo título del sidebar
+               </h1>
+
+               <ul>
+                   <li>Item1</li>
+                   <li>Item2</li>
+                   <li>Item3</li>
+               </ul>
+           </section>
+           
        </aside>
        <footer>
-           <div>
-           <h4>This is where i can place a copyright logo like this ® </h4>
+           <div style="background-color: grey;height: 40px;margin-top: -22px">
+           <h4 style="text-align: center;">Aquí va el footer ® </h4>
                     
           </div>
        </footer>
