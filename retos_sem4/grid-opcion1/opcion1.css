@@ -20,7 +20,7 @@ body {
     grid-auto-flow: row;
     margin: 100px;
     gap: 20px;
-    background-color: purple;
+    background-color: #782d66;
 }
 
 .celdita{
